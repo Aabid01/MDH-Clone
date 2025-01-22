@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.heading {
+    background-color: #f9f9f9;
+    height: 30vh;
+}
+
+.inp {
+    height: 5vh;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.mnu {
+    color: gray;
+}
+
+.dropdown {
+    padding: 10PX;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    border-radius: 5px;
+    font-size: 0.9rem;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.heading1 {
+    padding: 30px 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+.spice {
+    position: absolute;
+    background-image: url("MDH_Image/mdh-spices1.jpg");
+    /* background-image: url("MDH_Image/mdh-spices-2.jpg"); */
+    background-origin: border-box;
+    height: 300px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.line {
+    position: absolute;
+    width: 20px;
+    height: 6px;
+    background-color: rgba(255, 255, 255, 0.521);
+    transition: width 3s;
+
+}
+
+.line:hover {
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    width: 100%;
+}
+
+h1 {
+    color: aliceblue;
+    padding: 190px 0 20px 50px;
+}
+
+.welcome {
+    position: inherit;
+    padding: 320px 70px 0 70px;
+}
+
+.asli {
+    display: flex;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 70px;
+
+}
+
+.box {
+    height: 280px;
+    position: relative;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.box img {
+    padding: 2px 2px 2px 2px;
+    height: 250px;
+    width: 240px;
+}
+
+.bottom {
+    background-color: rgb(236, 233, 233);
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 20px;
+    padding: 90px 70px;
+}
+
+h4 {
+    padding: 10px;
+    color: rgb(231, 40, 40);
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+.con {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(199, 197, 197);
+    border-radius: 5px;
+    height: 250px;
+    width: 250px;
+}
+
+.contact {
+    width: 240px;
+    height: 25px;
+    border-radius: 3px;
+    margin: 5px;
+    border: none;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: red;
+    color: #f9f9f9;
+}
+
+#msg {
+    border: none;
+    padding: 5px;
+}
+
+.follow {
+    padding: 10px;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(71, 70, 70);
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+
+.cop {
+    color: rgb(175, 172, 172);
+}
+
+.md {
+    color: #f9f9f9;
+}
